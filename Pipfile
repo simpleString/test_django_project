@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 django = "*"
+pillow = "*"
+social-auth-app-django = "*"
+django-environ = "*"
 
 [dev-packages]
 flake8 = "*"

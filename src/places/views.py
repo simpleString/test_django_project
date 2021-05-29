@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 
-# Create your views here.
+
+def place_list(request):
+
+    return render(request, 'places/places_list.html')
