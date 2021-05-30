@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2ce5e38a4d5ffb9a45743c3974ff577f7e51aec4f9f9ef663dccbbc67ef01015"
+            "sha256": "cd335afc71ab082da0271b0a62b312f6699e421961ff67f5e09d204ac3a625da"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -134,6 +134,14 @@
             ],
             "index": "pypi",
             "version": "==0.4.5"
+        },
+        "django-map-widgets": {
+            "hashes": [
+                "sha256:20a7b951f5d3955f2b99a573649092a779f1e26a3d56ff9e6bae91d7a6773e22",
+                "sha256:82a3f15a8d7df50d94990ad23a182aeced001a034a4316f330ac5f76fd7b3def"
+            ],
+            "index": "pypi",
+            "version": "==0.3.1"
         },
         "idna": {
             "hashes": [

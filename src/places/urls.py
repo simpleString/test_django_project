@@ -1,7 +1,8 @@
 from django.urls import path
-
-from places.views import place_list
+from places.views import PlacesListView, CreatePlaceView, about
 
 urlpatterns = [
-    path('', place_list),
+    path('', PlacesListView.as_view()),
+    path('place/create', CreatePlaceView.as_view(), name='create_place'),
+    path('about', about)
 ]

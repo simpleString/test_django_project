@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{{ form.media }}
+
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" class="btn" style="background-color: green;">Сохранить</button>
+</form>
+{% endblock content %}
