@@ -9,6 +9,7 @@ pillow = "*"
 social-auth-app-django = "*"
 django-environ = "*"
 django-map-widgets = "*"
+psycopg2 = "*"
 
 [dev-packages]
 flake8 = "*"
