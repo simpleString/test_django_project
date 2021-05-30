@@ -11,7 +11,6 @@ from .models import Place
 class PlacesListView(ListView):
     model = Place
     template_name = 'places/places_list.html'
-    # return render(request, 'places/places_list.html')
 
     def get_queryset(self):
         return Place.objects.filter(user=self.request.user)
@@ -24,7 +23,6 @@ class CreatePlaceView(View):
         return render(request, 'places/place_create.html', context)
 
     def post(self, request, *args, **kwargs):
-        print(request.POST)
         form = CreatePlaceForm(request.POST, request.FILES)
         if form.is_valid():
             print("hello")
